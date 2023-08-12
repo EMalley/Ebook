@@ -45,9 +45,8 @@ $spacers: (
 $line-height-base : 1.7;
 $headings-margin-bottom: $spacer * 1;
 
-//modal
-.modal-dialog{
-  max-width: 1040px;
-} 
+$enable-negative-margins: true;
+
+
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss'
